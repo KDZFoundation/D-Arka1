@@ -1,0 +1,118 @@
+{
+  "theme": "dark",
+  "concept": "The Bridge: Ecological Heritage meets Digital Future. A visually striking fusion of organic textures (soil, fiber hemp) and digital precision (AI, nodes, code). The narrative is established through contrast: natural serifs vs technical sans, earthy backgrounds vs electric accents.",
+  "colors": {
+    "css_variables": {
+      "--background": "14 20 16",
+      "--foreground": "232 237 233",
+      "--surface": "18 25 21",
+      "--surface-glass": "255 255 255",
+      "--primary": "204 255 0",
+      "--primary-foreground": "0 0 0",
+      "--secondary": "212 163 115",
+      "--secondary-foreground": "14 20 16",
+      "--muted": "154 168 160",
+      "--border": "255 255 255"
+    },
+    "palette_description": {
+      "background": "#0E1410 (Midnight Moss) - Deep, almost black green representing the dark, rich soil.",
+      "surface": "#121915 (Deep Pine) - Slightly lighter than background for cards and panels.",
+      "text_primary": "#E8EDE9 (Bone) - Off-white for high readability without the harshness of pure white.",
+      "text_secondary": "#9AA8A0 (Sage Grey) - For supportive text and muted elements.",
+      "accent_tech": "#CCFF00 (Digital Lime) - High-energy, electric accent to represent the AI/Digital injection.",
+      "accent_nature": "#D4A373 (Terracotta/Soil) - Earthy accent to represent ecological roots."
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading_serif": "Cormorant Garamond, serif",
+      "heading_sans": "Cabinet Grotesk, sans-serif",
+      "body": "IBM Plex Sans, sans-serif"
+    },
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl lg:text-7xl tracking-tighter font-heading_sans leading-[0.9]",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl tracking-tight font-heading_serif italic",
+      "h3": "text-xl sm:text-2xl font-heading_sans tracking-tight",
+      "body": "text-base leading-relaxed text-white/70 font-body",
+      "overline": "text-xs tracking-[0.2em] uppercase font-body text-white/50"
+    },
+    "usage": "Use the Serif (Cormorant Garamond) for moments of heritage, ecology, and human touch. Use the Sans (Cabinet Grotesk) for modern, digital, and bold statements. Mix them in the same sentence for the 'Bridge' concept."
+  },
+  "layouts": {
+    "spacing": "Extremely generous. Use py-24 to py-32 for main sections. gap-8 to gap-16 in grids.",
+    "grid_strategy": "Asymmetrical Bento Grids (TETRIS MODE). Avoid generic 3-column layouts. Use col-span-8 and col-span-4 combinations to create tension.",
+    "hero_section": "Kinetic typography hero. Min height 90vh. Masked line-by-line text reveal. A subtle 3D or parallax abstract element representing the 'bridge' between seed and digital node."
+  },
+  "motion": {
+    "libraries": [
+      "framer-motion",
+      "lenis (for smooth scrolling)"
+    ],
+    "patterns": {
+      "scroll": "Smooth momentum scroll via lenis is MANDATORY.",
+      "reveal": "Scroll-reveal on all major sections: opacity 0 to 1, y 30 to 0.",
+      "text": "Line-by-line masked text reveal for the main manifesto.",
+      "marquee": "Slow editorial marquee for core values, large italic serif text drifting slowly across the screen.",
+      "interactions": "Hover states on all interactive elements. Scale up slightly (scale-105) for primary buttons, subtle border glows for cards."
+    }
+  },
+  "components": {
+    "cards": "Glassmorphic or solid flat. Use backdrop-blur-xl bg-white/5 with a 1px border-white/10. No heavy drop shadows; use inner borders (box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1)).",
+    "buttons": "Pill-shaped (rounded-full). Primary: bg-[#CCFF00] text-black font-medium. Secondary: bg-transparent border border-white/20 text-white hover:bg-white/5.",
+    "navigation": "Sticky glass header (z-50, backdrop-blur-xl bg-[#0E1410]/70). Must not be fully transparent to ensure readability. Contains Logo, Links, CTA.",
+    "visual_enhancers": "Implement a global noise texture overlay (fixed inset-0, pointer-events-none, opacity-[0.03], mix-blend-overlay) to give a raw, organic feel to the digital pixels."
+  },
+  "images": {
+    "hero_nature": {
+      "url": "https://images.pexels.com/photos/33326119/pexels-photo-33326119.jpeg",
+      "description": "Expansive view of a hemp field bordered by dense trees under a cloudy sky.",
+      "placement": "Ecology & Hemp section or background layer."
+    },
+    "tech_abstract": {
+      "url": "https://images.pexels.com/photos/17483874/pexels-photo-17483874.png",
+      "description": "Visual abstraction of neural networks in AI technology, featuring data flow and algorithms.",
+      "placement": "Digital Workshops or Hero subtle overlay."
+    },
+    "workshops": {
+      "url": "https://images.pexels.com/photos/15141483/pexels-photo-15141483.jpeg",
+      "description": "A professional presenting in a bright modern office setting to attentive colleagues.",
+      "placement": "Digital Workshops section."
+    },
+    "soil_sustainability": {
+      "url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09",
+      "description": "Hands holding small plant seedling in soil.",
+      "placement": "About us or Ecology roots section."
+    }
+  },
+  "accessibility": {
+    "contrast": "Ensure all text meets minimum WCAG AA (4.5:1 for normal text). Use text-shadows if text is placed directly over images.",
+    "motion": "Respect prefers-reduced-motion CSS media query. Disable heavy parallax or marquee if true.",
+    "testing": "All interactive and key informational elements MUST include a 'data-testid' attribute (e.g., data-testid='hero-cta-button')."
+  },
+  "instructions_to_main_agent": [
+    "Install required dependencies: framer-motion, @studio-freight/react-lenis (or lenis), react-fast-marquee, @phosphor-icons/react, lucide-react.",
+    "Setup Tailwind CSS with the provided CSS variables for colors.",
+    "Create a global noise texture component to give the site an organic, tactile feel.",
+    "Implement the multi-page structure using react-router-dom: Home, O nas, Warsztaty cyfrowe, Ekologia i konopie, Projekty, Strategia 2026-2031, Kontakt.",
+    "Build the Kinetic Hero: Use framer-motion to create a signature line-by-line masked text reveal on load.",
+    "Build the numbered manifesto chapters using bold asymmetric grid layouts.",
+    "Integrate the slow editorial marquee (react-fast-marquee).",
+    "Never use pure transparent backgrounds for headers; always use a backdrop blur with a dark tint.",
+    "Ensure all buttons and links have distinct hover states and 'data-testid' attributes."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid the 'AI slop' aesthetic. Make creative, distinctive frontends.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition (e.g., transition: all). Add transitions for specific interactive elements like button, input excluding transforms.",
+    "You MUST NOT center align the app container, i.e., do not add '.App { text-align: center; }' in the css file.",
+    "Always use modern button styles like pill-shaped, with interaction animations.",
+    "NEVER use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations separate good from extraordinary.",
+    "Do not use placeholder image URLs. Use the provided ones."
+  ]
+}

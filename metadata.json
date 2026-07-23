@@ -1,0 +1,8 @@
+{
+  "name": "Fundacja D-Arka",
+  "description": "Fundacja D-Arka — edukacja ekologiczna, konopie przemysłowe i warsztaty cyfrowe dla seniorek i seniorów.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

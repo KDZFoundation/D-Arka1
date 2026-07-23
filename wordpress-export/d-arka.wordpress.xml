@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  Fundacja D-Arka — pakiet treści do importu w WordPress (WXR 1.2)
+  Import: WP Admin → Narzędzia → Import → WordPress (zainstaluj "WordPress Importer") → wgraj ten plik.
+  Po imporcie: ustaw "Strona główna" jako statyczną stronę startową (Ustawienia → Czytanie).
+  Szczegóły w README-IMPORT.md.
+-->
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+  <title>Fundacja D-Arka</title>
+  <link>https://d-arka.org</link>
+  <description>Pomost między dziedzictwem ekologicznym a cyfrową przyszłością.</description>
+  <pubDate>Thu, 23 Jul 2026 08:00:00 +0000</pubDate>
+  <language>pl-PL</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://d-arka.org</wp:base_site_url>
+  <wp:base_blog_url>https://d-arka.org</wp:base_blog_url>
+  <wp:author>
+    <wp:author_id>1</wp:author_id>
+    <wp:author_login><![CDATA[darka]]></wp:author_login>
+    <wp:author_email><![CDATA[fundacja@d-arka.org]]></wp:author_email>
+    <wp:author_display_name><![CDATA[Fundacja D-Arka]]></wp:author_display_name>
+  </wp:author>
+
+  <item>
+    <title>Strona główna</title>
+    <link>https://d-arka.org/strona-glowna/</link>
+    <dc:creator><![CDATA[darka]]></dc:creator>
+    <content:encoded><![CDATA[
+<p><strong>Fundacja D-Arka</strong> — dawniej Fundacja Konopie dla Ziemi.</p>
+<h1>Zakorzenieni w ekologii, napędzani przez A.I.</h1>
+<p>Budujemy pomost między dziedzictwem ekologicznym a cyfrową przyszłością — łącząc kompetencje zielone z siłą sztucznej inteligencji.</p>
+<hr />
+<h2>Dwa światy, jeden kierunek rozwoju</h2>
+<h3>Dziedzictwo ekologiczne</h3>
+<p>Konopie włókniste, ochrona gleb i edukacja klimatyczna. Przekładamy wieloletnie doświadczenie w ekologii na praktyczne kompetencje zielone zgodne z ramami GreenComp.</p>
+<h3>Kompetencje cyfrowe i A.I.</h3>
+<p>Warsztaty cyfrowe, cyberbezpieczeństwo i asystenci merytoryczni A.I. Sztuczną inteligencję traktujemy jako katalizator zielonych rozwiązań dla ludzi, administracji i biznesu.</p>
+<h2>Cztery filary naszej pracy</h2>
+<h3>01 — Zrównoważony rozwój</h3>
+<p>Ochrona gleb, ekologia i innowacyjne rolnictwo. Dziedzictwo konopi włóknistych przekładamy na praktyczne kompetencje zielone zgodne z europejskimi ramami GreenComp.</p>
+<h3>02 — Innowacja technologiczna</h3>
+<p>Sztuczną inteligencję wykorzystujemy jako multiplikator celów środowiskowych – katalizator zielonych rozwiązań dla społeczeństwa, administracji i biznesu.</p>
+<h3>03 — Edukacja i rozwój</h3>
+<p>Budujemy kompetencje przyszłości: warsztaty stacjonarne i hybrydowe, kursy e-learningowe w standardzie SCORM oraz inteligentni asystenci merytoryczni A.I.</p>
+<h3>04 — Praktyka i jakość</h3>
+<p>Dążymy do certyfikacji ISO 9001 i ISO 27001 oraz wpisu do Bazy Usług Rozwojowych (BUR). Wiedzę teoretyczną przekładamy na sprawdzone, powtarzalne procesy.</p>
+<h2>Wizja 2031</h2>
+<blockquote><p>Do 2031 roku chcemy być kluczowym w Polsce północno-wschodniej ośrodkiem certyfikowanych usług rozwojowych – jedynym podmiotem skutecznie przekładającym europejskie ramy kompetencji GreenComp na praktyczne procesy zautomatyzowane przez technologię A.I.</p></blockquote>
+<p><a href="/kontakt/">Rozpocznij współpracę →</a></p>
+]]></content:encoded>
+    <wp:post_date><![CDATA[2026-07-23 08:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[strona-glowna]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_id>101</wp:post_id>
+  </item>
+
+  <item>
+    <title>O nas</title>
+    <link>https://d-arka.org/o-nas/</link>
+    <dc:creator><![CDATA[darka]]></dc:creator>
+    <content:encoded><![CDATA[
+<h1>Od pola konopi do świata A.I.</h1>
+<p>Fundacja D-Arka to naturalna ewolucja Fundacji Konopie dla Ziemi — organizacji, która latami realizowała projekty ekologiczne związane z konopiami włóknistymi. Dziś rozszerzamy naszą misję o kompetencje cyfrowe i sztuczną inteligencję.</p>
+<h2>Rebranding, który łączy przeszłość z przyszłością</h2>
+<p>W latach 2026–2031 przechodzimy strategiczny zwrot — od tradycyjnego rolnictwa zrównoważonego do nowoczesnego centrum kompetencji cyfrowych i ekologicznych. Rebranding na „D-Arka” to nie zerwanie z korzeniami, lecz ich rozwinięcie.</p>
+<p>Naszą bazą operacyjną pozostają Ogrodniki (gm. Milejewo), które przekształcamy w hybrydowe centrum szkoleniowe „Hybrid Learning Hub” — z poletkami testowymi i zapleczem do warsztatów stacjonarnych oraz online.</p>
+<h2>Misja</h2>
+<p>Budujemy pomost między dziedzictwem ekologicznym a cyfrową przyszłością poprzez integrację A.I. z ramami zrównoważonego rozwoju.</p>
+<h2>Wartości</h2>
+<ul>
+<li>Zrównoważony rozwój i ochrona środowiska</li>
+<li>Innowacyjność technologiczna i A.I.</li>
+<li>Edukacja oraz uczenie się przez całe życie</li>
+<li>Jakość, wiarygodność i certyfikacja (ISO)</li>
+<li>Współpraca z sektorem publicznym, MŚP i NGO</li>
+</ul>
+<h2>W liczbach</h2>
+<ul>
+<li><strong>2011</strong> — doświadczenia w obszarze A.I.</li>
+<li><strong>2026</strong> — rebranding i nowa strategia</li>
+<li><strong>4</strong> — aktywne i planowane projekty</li>
+<li><strong>8</strong> — warsztatów cyfrowych i eko w planie</li>
+</ul>
+]]></content:encoded>
+    <wp:post_date><![CDATA[2026-07-23 08:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[o-nas]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:menu_order>1</wp:menu_order>
+    <wp:post_id>102</wp:post_id>
+  </item>
+
+  <item>
+    <title>Warsztaty cyfrowe</title>
+    <link>https://d-arka.org/warsztaty-cyfrowe/</link>
+    <dc:creator><![CDATA[darka]]></dc:creator>
+    <content:encoded><![CDATA[
+<h1>Kompetencje przyszłości</h1>
+<p>Profesjonalne szkolenia i doradztwo z zakresu technologii cyfrowych, sztucznej inteligencji i cyberbezpieczeństwa — dla administracji publicznej, przedsiębiorstw, organizacji pozarządowych i osób uczących się.</p>
+<h2>Zakres szkoleń</h2>
+<h3>Kompetencje cyfrowe i A.I.</h3>
+<p>Praktyczne szkolenia z nowoczesnych technologii, precyzyjnej komunikacji z systemami A.I. (prompt engineering) oraz optymalizacji procesów biznesowych. <em>Prompt engineering · Automatyzacja · MŚP</em></p>
+<h3>Cyberbezpieczeństwo</h3>
+<p>Kursy podnoszące odporność cyfrową organizacji i administracji publicznej – od higieny cyfrowej po ochronę danych zgodną z ISO 27001. <em>Bezpieczeństwo · B2G · Dane</em></p>
+<h3>Zielone kompetencje (GreenComp)</h3>
+<p>Warsztaty łączące wiedzę ekologiczną z narzędziami cyfrowymi – zielona przedsiębiorczość, monitoring środowiskowy wspierany przez A.I. <em>GreenComp · ESG · Ekologia</em></p>
+<h3>Produkcja materiałów e-learningowych</h3>
+<p>Tworzymy inteligentnych asystentów merytorycznych, generatory testów i quizów oraz profesjonalne kursy w standardzie SCORM. <em>E-learning · SCORM · Asystenci A.I.</em></p>
+<h2>Dla kogo</h2>
+<ul>
+<li><strong>Administracja publiczna (B2G)</strong> — jednostki samorządowe i instytucje: technologie w obsłudze obywatela, cyberbezpieczeństwo, mObywatel.</li>
+<li><strong>Małe i średnie przedsiębiorstwa</strong> — doradztwo ESG, transformacja cyfrowa i optymalizacja procesów z wykorzystaniem A.I.</li>
+<li><strong>Edukacja i społeczność</strong> — uczniowie, studenci i seniorzy: uczenie się przez całe życie, przeciwdziałanie dezinformacji.</li>
+<li><strong>Organizacje pozarządowe</strong> — wzmacnianie odporności NGO poprzez kompetencje cyfrowe i ekologiczne oraz rozwój infrastruktury.</li>
+</ul>
+<p><a href="/kontakt/">Zapytaj o ofertę →</a></p>
+]]></content:encoded>
+    <wp:post_date><![CDATA[2026-07-23 08:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[warsztaty-cyfrowe]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:menu_order>2</wp:menu_order>
+    <wp:post_id>103</wp:post_id>
+  </item>
+
+  <item>
+    <title>Ekologia i konopie</title>
+    <link>https://d-arka.org/ekologia/</link>
+    <dc:creator><![CDATA[darka]]></dc:creator>
+    <content:encoded><![CDATA[
+<h1>Zielone dziedzictwo</h1>
+<p>Kontynuujemy misję zapoczątkowaną jako Fundacja Konopie dla Ziemi. Edukujemy o roli konopi włóknistych, ochronie gleb i zrównoważonym rozwoju — dziś wspierani narzędziami cyfrowymi i sztuczną inteligencją.</p>
+<h2>Obszary działań</h2>
+<h3>Dziedzictwo konopi włóknistych</h3>
+<p>Kontynuujemy misję Fundacji Konopie dla Ziemi – edukujemy o roli konopi włóknistych w pochłanianiu CO₂ i smogu, rekultywacji gleb i gospodarce o obiegu zamkniętym.</p>
+<h3>Ochrona klimatu i innowacje rolnicze</h3>
+<p>Promujemy proekologiczne rozwiązania: bio-nawozy, ochronę i regenerację gleb oraz nowoczesne, zrównoważone praktyki agrotechniczne.</p>
+<h3>Przeciwdziałanie dezinformacji</h3>
+<p>Uczymy opierania się na faktach – m.in. odróżniania konopi włóknistych od marihuany – oraz krytycznego myślenia w świecie cyfrowym.</p>
+<h3>Baza w Ogrodnikach</h3>
+<p>Nasza infrastruktura w Ogrodnikach (gm. Milejewo) staje się nowoczesnym centrum szkoleniowym „Hybrid Learning Hub” z poletkami testowymi i zapleczem hybrydowym.</p>
+<h2>GreenComp</h2>
+<blockquote><p>Dziedzictwo konopi włóknistych przekładamy na system kształcenia kompetencji zielonych zgodnych z europejskimi ramami GreenComp — w duchu gospodarki o obiegu zamkniętym.</p></blockquote>
+]]></content:encoded>
+    <wp:post_date><![CDATA[2026-07-23 08:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[ekologia]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:menu_order>3</wp:menu_order>
+    <wp:post_id>104</wp:post_id>
+  </item>
+
+  <item>
+    <title>Projekty</title>
+    <link>https://d-arka.org/projekty/</link>
+    <dc:creator><![CDATA[darka]]></dc:creator>
+    <content:encoded><![CDATA[
+<h1>Co realizujemy i planujemy</h1>
+<p>Rozwijamy się w oparciu o granty krajowe i europejskie. Poniżej aktualne oraz planowane projekty wynikające z naszej strategii rozwoju.</p>
+<h2>Stabilność i Jakość Fundacji — w realizacji</h2>
+<p><strong>Źródło:</strong> Program PROO · <strong>Dotacja:</strong> 50 000 zł · <strong>Okres:</strong> 04.2026 – 12.2026</p>
+<p>Kompleksowe wzmocnienie instytucjonalne Fundacji: adaptacja poddasza na cele biurowe, wdrożenie Systemu Zarządzania Jakością ISO 9001:2015, kampania marketingowa oraz szkolenia kadry.</p>
+<ul><li>Certyfikat ISO 9001:2015</li><li>Dostępna baza instytucjonalna</li><li>Większy zasięg działań misyjnych</li></ul>
+<h2>Odporność NGO przez kompetencje eko i cyfrowe — planowany</h2>
+<p><strong>Źródło:</strong> Moc Małych Społeczności 2026 · <strong>Dotacja:</strong> 45 000 zł · <strong>Okres:</strong> 2026</p>
+<p>Wzmocnienie odporności lokalnych organizacji pozarządowych poprzez 8 warsztatów (4 cyfrowe + 4 ekologiczne), rozwój bazy szkoleniowej w Ogrodnikach oraz promocję wiedzy o cyberbezpieczeństwie.</p>
+<ul><li>8 warsztatów</li><li>80 przedstawicieli NGO</li><li>100+ osób pośrednio</li></ul>
+<h2>Rozwój kompetencji trenerskich i A.I. — planowany</h2>
+<p><strong>Źródło:</strong> Fundusze Europejskie (EFS+) · <strong>Okres:</strong> 2027</p>
+<p>Rozwój kompetencji trenerskich, wdrożenie sztucznej inteligencji oraz certyfikacja ISO 27001 w celu podniesienia jakości usług i wydolności finansowej fundacji.</p>
+<ul><li>Szkolenia z coachingu i e-learningu</li><li>Prompt engineering</li><li>Certyfikacja ISO 27001</li></ul>
+<h2>Narzędzia A.I. w walce z dezinformacją — planowany</h2>
+<p><strong>Źródło:</strong> Fundusze EOG · <strong>Okres:</strong> 2027–2028</p>
+<p>Wyposażenie młodzieży z Młodzieżowych Ośrodków Wychowawczych w kompetencje krytycznego myślenia: warsztaty z cyberbezpieczeństwa, bezpłatny bot A.I. do fact-checkingu oraz kampania edukacyjna.</p>
+<ul><li>Bot A.I. do fact-checkingu</li><li>Warsztaty dla młodzieży (MOW)</li><li>Kampania edukacyjna</li></ul>
+]]></content:encoded>
+    <wp:post_date><![CDATA[2026-07-23 08:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[projekty]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:menu_order>4</wp:menu_order>
+    <wp:post_id>105</wp:post_id>
+  </item>
+
+  <item>
+    <title>Strategia 2026–2031</title>
+    <link>https://d-arka.org/strategia-2026-2031/</link>
+    <dc:creator><![CDATA[darka]]></dc:creator>
+    <content:encoded><![CDATA[
+<h1>Mapa drogowa 2026–2031</h1>
+<p>Nasza strategia zakłada stopniowe przejście od organizacji grantowej do niezależnego, certyfikowanego ośrodka usług rozwojowych łączącego kompetencje ekologiczne z technologią A.I.</p>
+<h2>2026 — Rebranding i fundamenty</h2>
+<ul><li>Zmiana nazwy na D-Arka i aktualizacja statutu</li><li>Certyfikacja ISO 9001:2015 (IX.2026)</li><li>Wpis do Bazy Usług Rozwojowych – BUR (XI.2026)</li></ul>
+<h2>2027 — Komercjalizacja wiedzy</h2>
+<ul><li>Start regularnej sprzedaży szkoleń w BUR (III.2027)</li><li>Przygotowanie do wdrożenia ISO 27001</li><li>Rozwój platformy asystentów A.I.</li></ul>
+<h2>2028 — Wejście na rynek B2G</h2>
+<ul><li>Pełne wdrożenie ISO 27001</li><li>Zamówienia publiczne: cyberbezpieczeństwo i A.I. w e-administracji</li><li>Rozbudowa oferty B2G</li></ul>
+<h2>2029–2031 — Skalowanie i niezależność</h2>
+<ul><li>Skalowanie produktów cyfrowych w modelu SaaS</li><li>Pełna niezależność finansowa</li><li>Pozycja lidera doradztwa ESG + A.I. w regionie</li></ul>
+<h2>Cel na 2031</h2>
+<blockquote><p>Do 2031 roku chcemy być kluczowym w Polsce północno-wschodniej ośrodkiem certyfikowanych usług rozwojowych – jedynym podmiotem skutecznie przekładającym europejskie ramy kompetencji GreenComp na praktyczne procesy zautomatyzowane przez technologię A.I.</p></blockquote>
+]]></content:encoded>
+    <wp:post_date><![CDATA[2026-07-23 08:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[strategia-2026-2031]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:menu_order>5</wp:menu_order>
+    <wp:post_id>106</wp:post_id>
+  </item>
+
+  <item>
+    <title>Kontakt</title>
+    <link>https://d-arka.org/kontakt/</link>
+    <dc:creator><![CDATA[darka]]></dc:creator>
+    <content:encoded><![CDATA[
+<h1>Porozmawiajmy o współpracy</h1>
+<p>Masz pytanie o warsztaty, projekt lub chcesz nawiązać partnerstwo? Napisz do nas — odpowiadamy na każdą wiadomość.</p>
+<h2>Dane kontaktowe</h2>
+<p><strong>Siedziba:</strong> Ogrodniki 10E, 82-316 Milejewo<br />
+<strong>E-mail:</strong> <a href="mailto:fundacja@d-arka.org">fundacja@d-arka.org</a><br />
+<strong>Telefon:</strong> <a href="tel:+48695181809">695 181 809</a></p>
+<h2>Formularz kontaktowy</h2>
+<!-- Wstaw tutaj shortcode formularza, np. Contact Form 7: [contact-form-7 id="XX" title="Kontakt"] lub blok WPForms/Fluent Forms. Ustaw wysyłkę na fundacja@d-arka.org -->
+<p><em>[Miejsce na formularz kontaktowy — patrz README-IMPORT.md, sekcja „Formularz”.]</em></p>
+<h2>Dane rejestrowe</h2>
+<p>NIP: 5783145555 · REGON: 388041366 · KRS: 0000874086</p>
+<p>Konto: NEST BANK S.A. (SWIFT: NESBPLPW)<br />PL 43 1870 1045 2078 1074 5222 0001</p>
+<p>Właścicielem serwisu jest Fundacja D-Arka z siedzibą w Polsce, wpisana do rejestru stowarzyszeń, innych organizacji społecznych i zawodowych, fundacji oraz rejestru przedsiębiorców pod numerem KRS 0000874086, prowadzonego przez Sąd Rejonowy w Olsztynie, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego. Jesteśmy organizacją pozarządową non-profit.</p>
+]]></content:encoded>
+    <wp:post_date><![CDATA[2026-07-23 08:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[kontakt]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:menu_order>6</wp:menu_order>
+    <wp:post_id>107</wp:post_id>
+  </item>
+
+</channel>
+</rss>

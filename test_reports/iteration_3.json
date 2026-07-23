@@ -1,0 +1,28 @@
+{
+  "summary": "Frontend-only regression + WCAG/footer verification for D-Arka polish iteration 3. Almost all criteria pass: HTML lang='pl', skip-link exists and focusable first (Tab), main#main-content, visible lime focus outlines on nav, marquee aria-hidden=true and pauses on hover, footer registration data (NIP/REGON/KRS/NEST BANK/SWIFT/IBAN) + legal paragraph (Sąd Rejonowy w Olsztynie / non-profit) + address/email/phone all present with correct test ids, contact form inline role='alert' errors with aria-invalid on all three required fields and focus moves to Imię on empty submit, successful submit shows contact-success, per-route document.title all correct for 7 routes, theme toggle switches html[data-theme] between null and 'dark'. One CRITICAL contrast/spec issue: dark theme does NOT override --btn-fg, so lime CTA buttons render white (#FFFFFF) text on bright lime (rgb(204,255,0)) — contrast ~1.9:1, fails WCAG AA and violates the stated requirement 'dark theme uses dark text on bright lime'.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [
+      {"component": "Lime CTA buttons in DARK theme (nav-cta, hero primary CTA, contact-submit, workshops CTA, footer registration CTA styling)", "issue": "In dark theme --btn-fg stays #FFFFFF (inherited from :root). Result: white text on bright lime rgb(204,255,0). Contrast ~1.9:1 fails WCAG AA and contradicts spec ('dark theme uses dark text on bright lime'). Fix: add --btn-fg: #0E1410 (or rgb(var(--c-moss))) inside html[data-theme=\"dark\"] block in /app/frontend/src/index.css around line 53-71.", "selector": "[data-testid=\"nav-cta\"], [data-testid=\"contact-submit\"], .bg-lime buttons", "priority": "HIGH"}
+    ],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": ["/app/test_reports/iteration_3.json"],
+  "action_items": [
+    "Add --btn-fg override in html[data-theme=\"dark\"] block in /app/frontend/src/index.css to use a dark color (e.g. #0E1410 or rgb(var(--c-moss))) so bright-lime buttons in dark theme use dark text per spec and to meet WCAG AA contrast."
+  ],
+  "critical_code_review_comments": [
+    "index.css: dark theme block (lines 53-71) omits --btn-fg override — must be present because :root default #FFFFFF is unsafe over bright lime.",
+    "Contact.jsx: solid — role='alert', aria-invalid, refs for focus management are all wired correctly.",
+    "Layout.jsx: TITLES map + skip-link + main#main-content are correctly implemented.",
+    "Footer.jsx: registration <dl> + legal <p> use FOUNDATION source of truth with data-testids as required."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "n/a (skipped)", "frontend": "~92% (11/12 checks pass; 1 dark-theme button contrast fail)"},
+  "seed_data_creation": "None",
+  "retest_needed": true,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Iteration 3 verified WCAG basics + footer + regression. Only remaining fix: add --btn-fg dark override in index.css. After fix, re-verify: toggle to dark, check computed color of [data-testid=\"contact-submit\"] and [data-testid=\"nav-cta\"] — should be dark (e.g. rgb(14,20,16)), not white. All other data-testids and behaviors already validated: skip-link, main-content, footer-registration, footer-legal, values-marquee (aria-hidden+pause on hover), 7 route titles, contact form validation flow (empty submit shows 3 role='alert' + aria-invalid + focus to contact-name), successful submit → contact-success.",
+  "rca of the issue": "Root cause: /app/frontend/src/index.css defines --btn-fg only in :root (#FFFFFF for light green). The html[data-theme=\"dark\"] selector overrides --c-lime to bright lime rgb(204,255,0) but forgot to update --btn-fg. Mitigation: inside html[data-theme=\"dark\"] {...} add: --btn-fg: #0E1410; (dark) so buttons using text-[color:var(--btn-fg)] (e.g. contact-submit) render dark text on bright lime in dark mode."
+}
